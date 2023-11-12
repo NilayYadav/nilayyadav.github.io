@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    padding: 10vh;
+    padding: 5%;
     color: white;
     font-size: 16px;
     font-family: Helvetica;
@@ -9,7 +9,7 @@ body {
 }
 
 .project-list {
-    padding: 1%;
+    padding: 2%;
 }
 
 .project-item {
@@ -18,4 +18,32 @@ body {
 
 .project-link {
     color: #0095f6;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .project-list {
+        padding: 3%;
+    }
+
+    .project-item {
+        margin-top: 3vh;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .project-list {
+        padding: 4%;
+    }
+
+    .project-item {
+        margin-top: 4vh;
+    }
 }
