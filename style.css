@@ -1,7 +1,14 @@
-body {
-    font-family: Helvetica;
-    font-size: 15px;
-    padding: 5%;
-    width: 50%;
-    line-height: 3.5vh;
-}
+ body {
+     font-family: Helvetica;
+     font-size: 15px;
+     padding: 5%;
+     width: 50%;
+     line-height: 3.5vh;
+ }
+
+ @media (max-width: 1024px) {
+     body {
+         width: 80%;
+         font-size: 19px;
+     }
+ }
