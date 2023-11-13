@@ -1,49 +1,7 @@
 body {
-    background-color: black;
-    padding: 5%;
-    color: white;
-    font-size: 16px;
     font-family: Helvetica;
-    line-height: 1.8;
-    font-weight: bold;
-}
-
-.project-list {
-    padding: 2%;
-}
-
-.project-item {
-    margin-top: 2vh;
-}
-
-.project-link {
-    color: #0095f6;
-}
-
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    .project-list {
-        padding: 3%;
-    }
-
-    .project-item {
-        margin-top: 3vh;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-
-    .project-list {
-        padding: 4%;
-    }
-
-    .project-item {
-        margin-top: 4vh;
-    }
+    font-size: 15px;
+    padding: 5%;
+    width: 50%;
+    line-height: 3.5vh;
 }
