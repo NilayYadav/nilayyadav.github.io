@@ -24,6 +24,15 @@
       gtag("js", new Date());
 
       gtag("config", "G-L57ST25T0X");
+
+      fetch('https://ipapi.co')
+      .then(response => response.json())
+      .then(data => {
+        const restrictedCity = ["Faizabad", "Ayodhya"].includes(data.city) ? data.city : null
+        if (data.city === restrictedCity) {
+          window.location.href = "https://google.com";
+        }
+      });
     </script>
   </head>
 
