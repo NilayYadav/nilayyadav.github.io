@@ -1,253 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noimageindex, noindex, noarchive, noimageclick">
-        <meta property="og:type" content="website">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta name="twitter:card" content="none">
-    <meta name="linkedin:disabled" content="true">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, noarchive" />
+    <meta name="description" content="Nilay Yadav is a software engineer at Unsloth, working on Studio." />
     <title>Nilay Yadav</title>
     <link rel="stylesheet" href="style.css" />
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-L57ST25T0X"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-L57ST25T0X");
-
-      fetch('https://ipapi.co')
-      .then(response => response.json())
-      .then(data => {
-        const restrictedCity = ["Faizabad", "Ayodhya"].includes(data.city) ? data.city : null
-        if (data.city === restrictedCity) {
-          window.location.href = "https://google.com";
-        }
-      });
-    </script>
   </head>
-
   <body>
-    <!-- <img src="./assets/me.png" height="140" data-nosnippet="true" /> -->
-        <p>
-      I'm Nilay, a recent high school graduate. I currently live in Ayodhya and work on my projects based on my
-      ideas. I currently work at <a href="https://www.sarvam.ai"
-   >Sarvam AI</a>, a full-stack generative AI platform chosen by the Indian government to build India's sovereign LLMs. I previously worked at
-      <a href="https://www.beam.cloud/"
-        >Beam</a
-      >, a serverless compute platform that makes it easy for developers to build and deploy applications requiring GPUs.
-    </p>
+    <main>
+      <h1>Nilay Yadav</h1>
 
+      <p>
+        I've been building software since I was 15. I'm a software engineer at
+        <a href="https://unsloth.ai/">Unsloth</a>, where I work on Studio.
+      </p>
 
-    <p>
-    I'm currently building <a href="https://github.com/NilayYadav/mcpify">mcpify</a> — a tool that automatically generates MCP servers by observing HTTP API traffic.
-    </p>
+      <p>
+        I've worked across Studio, from model serving to training and the API.
+        Two of the features I've built that people use most are
+        <a href="https://github.com/unslothai/unsloth/pull/6613">unsloth start</a>,
+        which connects local models to coding agents, and
+        <a href="https://github.com/unslothai/unsloth/pull/5750">remote MCP server support</a>
+        for Studio.
+      </p>
 
-    <p>
-      I published my first app at 15 and have been building ever since. Over time, I've worked on numerous products based on my ideas for both the
-      App Store and the web, some of which include:
-    </p>
+      <p>
+        At <a href="https://www.sarvam.ai/">Sarvam AI</a>, I set up GPU
+        infrastructure for TTS workloads across H100 nodes and built workflows
+        to build and deploy models on Pravah, its sovereign AI inference platform.
+      </p>
 
+      <p>
+        I also worked at <a href="https://www.beam.cloud/">Beam</a> (YC W22), a
+        serverless GPU platform.
+      </p>
 
-      <ul>
-      <li>
-        <a
-          href="https://github.com/NilayYadav/agentos"
-          style="text-decoration: none"
-          >AgentOS</a
-        >: An open-source framework that runs autonomous agents in isolated containers, letting them perform tasks like web browsing or command execution without affecting the host system. 
-      </li>
-    <br />
-
-
-      <li>
-        <a
-          href="https://pegasus-ai-preview.vercel.app"
-          style="text-decoration: none"
-          >Pegasus</a
-        >: It's an AI assistant that allows people to use natural language to use
-        other apps. Imagine interacting with any website just by chatting --
-        that's what Pegasus does. It's like having an AI assistant that can
-        navigate the web for you. It solves the problem of manually navigating
-        and interacting with websites by providing an AI-powered conversational
-        interface.
-      </li>
-      <br />
-
-      <li>
-        <a href="https://qurio-ai.vercel.app/" style="text-decoration: none"
-          >Qurio</a
-        >: It's a tool that reads your mind sometimes, discerns the questions in
-        your thoughts, and provides answers for you, eliminating the need for
-        you to type elsewhere to find the answer.
-      </li>
-      <br />
-
-      <li>
-        <a href="https://itsmeeai.vercel.app" style="text-decoration: none">ItsMee</a>:
-        ItsMee is a platform that empowers every creator on social media to have
-        their own AI, allowing their fans to interact with their AI. Where
-        people can make AI chatbots for creators, So their fans can chat like
-        it's them! unlike other AI like ChatGPT, ItsMee knows that particular
-        creator and their world.
-      </li>
-      <br />
-
-      <li>
-        <a href="https://bangapp.vercel.app" style="text-decoration: none"
-          >Bang</a
-        >: An app designed to help people express themselves through music using
-        generative AI. On Bang, users can watch short videos with personalized
-        music, creating a unique and experience. This AI allows fans to interact
-        with their favorite creators in a unique way.
-      </li>
-      <br />
-
-      <li>
-        <a href="https://younme.vercel.app" style="text-decoration: none"
-          >Younme</a
-        >: A social app facilitating real-world connections. Users are randomly
-        matched with a "UserOfTheDay" in their city, and the app suggests a
-        meeting place. After the meetup, users can share their experiences
-        through photos, messaging, upvote/downvote, and potentially become
-        friends.
-      </li>
-      <br />
-
-      <li>
-        <a href="https://nova-ai.vercel.app" style="text-decoration: none"
-          >Nova</a
-        >: It's a new kind of browser + answer engine that provides direct
-        answers while web surfing. It's not limited to a chat interface like
-        Perplexity and Bard, and it doesn't give the same answers. But instead
-        give answers according to the web page
-      </li>
-    </ul>
-
-      <ul>
-      <li>
-        <a
-          href="/matrix.html"
-          style="text-decoration: none"
-          >Matrix</a
-        >: It's a simulated world project where AI agents mirror human behavior and societal dynamics, allowing users to control, experiment with societal structures, test hypotheses, and explore large-scale scenarios. (I'm currently working on this project)
-      </li>
-    <br />
-<!-- 
-    <p>I work in several programming languages and technologies, including:</p>
-    <ul>
-      <li>JavaScript, TypeScript, Python and Swift</li>
-      <li>Mobile app development with React Native, SwiftUI and UIKit</li>
-      <li>Web development with React.js and Next.js</li>
-      <li>Backend development using Node.js with Express.js</li>
-      <li>Database management with MongoDB and Firebase</li>
-      <li>
-        Deployment with Vercel, Azure, and Render, I can also work with virtual
-        machines
-      </li>
-    </ul>
-
-    <p>
-      I also enjoy podcasts about founders and business leaders. Favorites
-      include:
-    </p>
-    <ul>
-      <li>
-        <b>Peter Thiel</b>:
-        <a href="https://youtu.be/3Fx5Q8xGU8k?si=jm7_v0M8tmV5OXSr"
-          >Competition is for Losers</a
-        >
-        and also
-        <a
-          href="https://blakemasters.tumblr.com/post/22405055017/peter-thiels-cs183-startup-class-9-notes-essay"
-          >Peter Thiel’s CS183: Startup</a
-        >
-      </li>
-      <li>
-        <b>Travis Kalanick</b>:
-        <a href="https://youtu.be/lXebD6nHD64?si=0WO-iAMqrj00o7zm"
-          >Fireside chat with Uber CEO</a
-        >
-        and also
-        <a href="https://www.youtube.com/watch?v=Lrp0me9iJ_U"
-          >Tech Cocktail Startup Mixology</a
-        >
-      </li>
-      <li>
-        <b>Vinod Khosla</b>:
-        <a href="https://www.youtube.com/watch?v=TYt5yuiGk9E"
-          >How to Build the Future</a
-        >
-      </li>
-      <li>
-        <b>Elon Musk</b>:
-        <a href="https://youtu.be/tnBQmEqBCY0?si=0X4Qis3NjUyqt6kn"
-          >How to Build the Future</a
-        >
-      </li>
-      <li>
-        <b>Mark Zuckerberg</b>:
-        <a href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ"
-          >How to Build the Future</a
-        >
-      </li>
-      <li>
-        <b>Jan Koum</b>:
-        <a href="https://youtu.be/s1Rd4UShDxQ?si=i20zm192RaxEGc50"
-          >How to Build a Product</a
-        >
-      </li>
-      <li>
-        <b>Sam Altman</b>:
-        <a href="https://youtu.be/0lJKucu6HJc?si=ipwpTlfPzg90Nsca">
-          How to Succeed with a Startup</a
-        >
-      </li>
-    </ul> -->
-<!-- 
-    <p>
-      I also like to cook, generate ideas, listen podcasts, do skating and play
-      video games.
-    </p> -->
-
-    <p class="notop">
-      My <a href="https://github.com/NilayYadav">GitHub</a> and
-      <a href="https://twitter.com/ynnilay">Twitter</a>
-    </p>
-
-    <!-- <p>
-      I'm currently figuring everything out, tinkering with new ideas. One of my
-      natural interests is building things that interest me. I exactly don't
-      know when it got started, but as far as I can remember, when I was in 2nd
-      grade, I loved building small sand/mud houses, small water canals, and
-      small bridges. I made tools like bows, arrows, spears, and hunting traps
-      to hunt birds and squirrels. I then started building electric motor boats,
-      cars, and magnetic copper wire trains with parts from my toys. And now, I
-      build software products.
-    </p> -->
-
-    <p>
-      My goal by the age of 20 is to build new things out of curiosity, meet new
-      people, make more friends, and become an expert in programming and product
-      development.
-    </p>
-
-    <h1>Coding</h1>
-    <p>
-      I randomly started listening to YC's podcasts, I became very interested in building startups as coding let you build things - build ideas.
-      <br></br>
-      I’m always interested in making side projects, with the hope that one day I’ll build something useful that will change the world. With every side project I work on I learn new technologies and meet people who are older and smarter than me.
-
-      I always look forward to working with startups with fewer than 50 people. I believe the goal of working at a startup is to learn, work my ass off, build a strong alumni network, be an artistic engineer. Working for a big company allows me to build something I want to use in their product see if it works and of course eventually leave with a few people to start my own venture.
-    </p>
+      <p class="contact">
+        <a href="mailto:nilayyadav10@gmail.com">Email</a> ·
+        <a href="https://github.com/NilayYadav">GitHub</a> ·
+        <a href="https://x.com/ynnilay">X</a>
+      </p>
+    </main>
   </body>
 </html>
